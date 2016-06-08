@@ -45,7 +45,7 @@ function deployer(options) {
                     console.log("Success!", consoleOutput);
                     exec('npm install', function(err, stdout, stderr) {
                         console.log(stdout.split('\n').join(''));
-                        process.exit(0);
+                        //process.exit(0);
                     });
 
                 }
